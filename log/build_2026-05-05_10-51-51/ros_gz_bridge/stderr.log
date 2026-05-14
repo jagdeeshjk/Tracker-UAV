@@ -1,0 +1,4 @@
+/home/jagdeesh/tracker/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp: In member function ‘void ros_gz_bridge::RosGzBridge::spin()’:
+/home/jagdeesh/tracker/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp:50:10: warning: ‘expand_names’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   50 |     bool expand_names;
+      |          ^~~~~~~~~~~~

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ee44ce6ce2fefac94f9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_mode_goto_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_goto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_goto-Release-bac3357aab3b3a15b6a6.json",
+					"name" : "example_mode_goto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_goto_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_goto_cpp_uninstall-Release-54ad8bcb722cd6cab625.json",
+					"name" : "example_mode_goto_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b9ee293228606e9c4d0c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jagdeesh/tracker/build/example_mode_goto_cpp",
+		"source" : "/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/goto"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,8 @@
+/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge/src/static_bridge_shim.cpp: In function ‘int main(int, char**)’:
+/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge/src/static_bridge_shim.cpp:40:9: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   40 |   system(cli_call.str().c_str());
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge/src/parameter_bridge_shim.cpp: In function ‘int main(int, char**)’:
+/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge/src/parameter_bridge_shim.cpp:40:9: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   40 |   system(cli_call.str().c_str());
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~

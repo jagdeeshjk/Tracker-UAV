@@ -1,0 +1,27 @@
+[0.245s] Invoking command in '/home/jagdeesh/tracker/build/precision_land': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp/lib:/home/jagdeesh/tracker/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/precision_land -- -j12 -l12
+[0.437s] [100%] Built target precision_land
+[0.567s] Invoked command in '/home/jagdeesh/tracker/build/precision_land' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp/lib:/home/jagdeesh/tracker/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/precision_land -- -j12 -l12
+[0.570s] Invoking command in '/home/jagdeesh/tracker/build/precision_land': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp/lib:/home/jagdeesh/tracker/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/precision_land
+[0.586s] -- Install configuration: "Release"
+[0.587s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/lib/precision_land/precision_land
+[0.587s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land//launch
+[0.589s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land//launch/precision_landing_system.launch.py
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land//cfg
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land//cfg/bridge.yaml
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land//cfg/params.yaml
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/ament_index/resource_index/package_run_dependencies/precision_land
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/ament_index/resource_index/parent_prefix_path/precision_land
+[0.590s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/environment/ament_prefix_path.sh
+[0.591s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/environment/ament_prefix_path.dsv
+[0.591s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/environment/path.sh
+[0.591s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/environment/path.dsv
+[0.591s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/local_setup.bash
+[0.591s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/local_setup.sh
+[0.592s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/local_setup.zsh
+[0.592s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/local_setup.dsv
+[0.593s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/package.dsv
+[0.593s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/ament_index/resource_index/packages/precision_land
+[0.593s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/cmake/precision_landConfig.cmake
+[0.593s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/cmake/precision_landConfig-version.cmake
+[0.593s] -- Up-to-date: /home/jagdeesh/tracker/install/precision_land/share/precision_land/package.xml
+[0.612s] Invoked command in '/home/jagdeesh/tracker/build/precision_land' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_ros2_cpp/lib:/home/jagdeesh/tracker/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/precision_land

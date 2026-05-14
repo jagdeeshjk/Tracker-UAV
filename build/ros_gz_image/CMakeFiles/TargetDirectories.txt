@@ -1,0 +1,10 @@
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/uninstall.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/ros_gz_image_uninstall.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/image_bridge.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/test.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/edit_cache.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/rebuild_cache.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/list_install_components.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/install.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/install/local.dir
+/home/jagdeesh/tracker/build/ros_gz_image/CMakeFiles/install/strip.dir

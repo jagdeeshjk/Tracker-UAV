@@ -1,0 +1,45 @@
+[1.238s] Invoking command in '/home/jagdeesh/tracker/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/cv_bridge LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/jagdeesh/tracker/build/opencv_tests/build install --record /home/jagdeesh/tracker/build/opencv_tests/install.log --single-version-externally-managed install_data
+[1.618s] running egg_info
+[1.619s] creating ../../../build/opencv_tests/opencv_tests.egg-info
+[1.619s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.619s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.619s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.620s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.620s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.620s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.623s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.624s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.624s] running build
+[1.625s] running build_py
+[1.625s] creating /home/jagdeesh/tracker/build/opencv_tests/build
+[1.626s] creating /home/jagdeesh/tracker/build/opencv_tests/build/lib
+[1.626s] creating /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests
+[1.626s] copying opencv_tests/__init__.py -> /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests
+[1.626s] copying opencv_tests/source.py -> /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests
+[1.626s] copying opencv_tests/broadcast.py -> /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests
+[1.626s] copying opencv_tests/rosfacedetect.py -> /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests
+[1.627s] running install
+[1.627s] running install_lib
+[1.629s] creating /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.629s] copying /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.629s] copying /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.629s] copying /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.629s] copying /home/jagdeesh/tracker/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.630s] byte-compiling /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[1.630s] byte-compiling /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[1.632s] byte-compiling /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[1.632s] byte-compiling /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[1.634s] running install_data
+[1.634s] creating /home/jagdeesh/tracker/install/opencv_tests/share/ament_index
+[1.634s] creating /home/jagdeesh/tracker/install/opencv_tests/share/ament_index/resource_index
+[1.635s] creating /home/jagdeesh/tracker/install/opencv_tests/share/ament_index/resource_index/packages
+[1.635s] copying resource/opencv_tests -> /home/jagdeesh/tracker/install/opencv_tests/share/ament_index/resource_index/packages
+[1.635s] copying package.xml -> /home/jagdeesh/tracker/install/opencv_tests/share/opencv_tests
+[1.635s] running install_egg_info
+[1.638s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-4.1.0-py3.10.egg-info
+[1.640s] running install_scripts
+[1.678s] Installing broadcast script to /home/jagdeesh/tracker/install/opencv_tests/lib/opencv_tests
+[1.678s] Installing rosfacedetect script to /home/jagdeesh/tracker/install/opencv_tests/lib/opencv_tests
+[1.678s] Installing source script to /home/jagdeesh/tracker/install/opencv_tests/lib/opencv_tests
+[1.679s] writing list of installed files to '/home/jagdeesh/tracker/build/opencv_tests/install.log'
+[1.725s] Invoked command in '/home/jagdeesh/tracker/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/cv_bridge LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jagdeesh/tracker/install/opencv_tests/lib/python3.10/site-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/jagdeesh/tracker/build/opencv_tests/build install --record /home/jagdeesh/tracker/build/opencv_tests/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+/home/jagdeesh/tracker/install/ros_gz_image/lib/ros_gz_image/image_bridge
+/home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/package_run_dependencies/ros_gz_image
+/home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/parent_prefix_path/ros_gz_image
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.sh
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.dsv
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/path.sh
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/path.dsv
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.bash
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.sh
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.zsh
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.dsv
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/package.dsv
+/home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/packages/ros_gz_image
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig.cmake
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig-version.cmake
+/home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/package.xml

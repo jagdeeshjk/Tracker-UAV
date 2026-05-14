@@ -1,0 +1,17 @@
+/home/jagdeesh/tracker/install/ros_ign_image/lib/ros_ign_image/image_bridge
+/home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/package_run_dependencies/ros_ign_image
+/home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/parent_prefix_path/ros_ign_image
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.sh
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.dsv
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/path.sh
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/path.dsv
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.bash
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.sh
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.zsh
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.dsv
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/package.dsv
+/home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/packages/ros_ign_image
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig.cmake
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig-version.cmake
+/home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/package.xml

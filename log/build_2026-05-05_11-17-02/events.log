@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000542] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000591] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000632] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000670] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000708] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.000746] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.000784] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.000820] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.000855] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.000892] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.000928] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.000964] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.001001] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001037] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001074] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001111] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.001164] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.001201] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.001240] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.001278] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.001315] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.001351] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.001389] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.001426] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.001464] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.001499] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.001536] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.001575] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.001610] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.001646] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.001696] (aruco_tracker) JobQueued: {'identifier': 'aruco_tracker', 'dependencies': OrderedDict([('cv_bridge', '/home/jagdeesh/tracker/install/cv_bridge'), ('px4_msgs', '/home/jagdeesh/tracker/install/px4_msgs')])}
+[0.001760] (precision_land) JobQueued: {'identifier': 'precision_land', 'dependencies': OrderedDict([('px4_msgs', '/home/jagdeesh/tracker/install/px4_msgs'), ('px4_ros2_cpp', '/home/jagdeesh/tracker/install/px4_ros2_cpp')])}
+[0.001811] (aruco_tracker) JobStarted: {'identifier': 'aruco_tracker'}
+[0.047075] (precision_land) JobStarted: {'identifier': 'precision_land'}
+[0.080333] (aruco_tracker) JobProgress: {'identifier': 'aruco_tracker', 'progress': 'cmake'}
+[0.103267] (aruco_tracker) Command: {'cmd': ['/usr/bin/cmake', '/home/jagdeesh/tracker/fixed_src/aruco_tracker', '-DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/aruco_tracker'], 'cwd': '/home/jagdeesh/tracker/build/aruco_tracker', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/jagdeesh'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jagdeesh'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jagdeesh/tracker/install/px4_msgs/lib:/home/jagdeesh/tracker/install/cv_bridge/lib'), ('HOME', '/home/jagdeesh'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f527c2b-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1648'), ('SYSTEMD_EXEC_PID', '1827'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7424'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jagdeesh'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:19826'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jagdeesh'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jaani:@/tmp/.ICE-unix/1794,unix/jaani:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'c84cbfc8dc2345bd9dab8ce0f73fdd8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SICTO3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'b22d4409-99ce-4726-a67a-d6dfb226da24'), ('PWD', '/home/jagdeesh/tracker/build/aruco_tracker'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/jagdeesh/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '7424'), ('CMAKE_PREFIX_PATH', '/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge')]), 'shell': False}
+[0.105272] (-) TimerEvent: {}
+[0.146335] (precision_land) JobProgress: {'identifier': 'precision_land', 'progress': 'cmake'}
+[0.159279] (precision_land) Command: {'cmd': ['/usr/bin/cmake', '/home/jagdeesh/tracker/fixed_src/precision_land', '-DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/precision_land'], 'cwd': '/home/jagdeesh/tracker/build/precision_land', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/jagdeesh'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jagdeesh'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jagdeesh/tracker/install/px4_ros2_cpp/lib:/home/jagdeesh/tracker/install/px4_msgs/lib'), ('HOME', '/home/jagdeesh'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f527c2b-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1648'), ('SYSTEMD_EXEC_PID', '1827'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7424'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jagdeesh'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:19826'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jagdeesh'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jaani:@/tmp/.ICE-unix/1794,unix/jaani:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', 'c84cbfc8dc2345bd9dab8ce0f73fdd8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SICTO3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', 'b22d4409-99ce-4726-a67a-d6dfb226da24'), ('PWD', '/home/jagdeesh/tracker/build/precision_land'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/jagdeesh/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '7424'), ('CMAKE_PREFIX_PATH', '/home/jagdeesh/tracker/install/px4_ros2_cpp:/home/jagdeesh/tracker/install/px4_msgs')]), 'shell': False}
+[0.184342] (aruco_tracker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.205484] (-) TimerEvent: {}
+[0.239090] (precision_land) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305646] (-) TimerEvent: {}
+[0.410221] (-) TimerEvent: {}
+[0.510685] (-) TimerEvent: {}
+[0.611244] (-) TimerEvent: {}
+[0.713403] (-) TimerEvent: {}
+[0.817517] (-) TimerEvent: {}
+[0.847629] (aruco_tracker) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.852667] (aruco_tracker) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.856209] (aruco_tracker) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.859280] (aruco_tracker) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.885552] (aruco_tracker) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.886467] (aruco_tracker) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.887110] (aruco_tracker) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.888664] (aruco_tracker) StderrLine: {'line': b'  /home/jagdeesh/tracker/build/aruco_tracker/ament_cmake_package_templates/templates.cmake)\n'}
+[0.888992] (aruco_tracker) StderrLine: {'line': b'  returned error code 1\n'}
+[0.889316] (aruco_tracker) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.892293] (aruco_tracker) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.892609] (aruco_tracker) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.892759] (aruco_tracker) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.892885] (aruco_tracker) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[0.893046] (aruco_tracker) StderrLine: {'line': b'\n'}
+[0.893455] (aruco_tracker) StderrLine: {'line': b'\n'}
+[0.893710] (aruco_tracker) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.893953] (aruco_tracker) StdoutLine: {'line': b'See also "/home/jagdeesh/tracker/build/aruco_tracker/CMakeFiles/CMakeOutput.log".\n'}
+[0.902964] (aruco_tracker) CommandEnded: {'returncode': 1}
+[0.922327] (-) TimerEvent: {}
+[1.026258] (-) TimerEvent: {}
+[1.055775] (aruco_tracker) JobEnded: {'identifier': 'aruco_tracker', 'rc': 1}
+[1.106895] (precision_land) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.109299] (precision_land) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.109539] (precision_land) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.109995] (precision_land) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.126433] (-) TimerEvent: {}
+[1.185811] (precision_land) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.186600] (precision_land) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.187172] (precision_land) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.189303] (precision_land) StderrLine: {'line': b'  /home/jagdeesh/tracker/build/precision_land/ament_cmake_package_templates/templates.cmake)\n'}
+[1.189971] (precision_land) StderrLine: {'line': b'  returned error code 1\n'}
+[1.190593] (precision_land) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.192293] (precision_land) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.192816] (precision_land) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.193265] (precision_land) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.194342] (precision_land) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[1.196671] (precision_land) StderrLine: {'line': b'\n'}
+[1.197975] (precision_land) StderrLine: {'line': b'\n'}
+[1.200226] (precision_land) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.200801] (precision_land) StdoutLine: {'line': b'See also "/home/jagdeesh/tracker/build/precision_land/CMakeFiles/CMakeOutput.log".\n'}
+[1.209834] (precision_land) JobEnded: {'identifier': 'precision_land', 'rc': 'SIGINT'}
+[1.220770] (-) EventReactorShutdown: {}

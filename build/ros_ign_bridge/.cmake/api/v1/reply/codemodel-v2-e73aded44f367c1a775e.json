@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5228a0afb0e92f1b1538.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros_ign_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_bridge-Release-f4b9a6231949c93f4280.json",
+					"name" : "parameter_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_bridge_uninstall-Release-7adb2d954b4f96157d55.json",
+					"name" : "ros_ign_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_bridge-Release-147413c2a2f1b4c482f9.json",
+					"name" : "static_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0689c3a89fd84f636851.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jagdeesh/tracker/build/ros_ign_bridge",
+		"source" : "/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

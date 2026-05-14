@@ -1,0 +1,1 @@
+Invoking command in '/home/jagdeesh/tracker/build/px4_msgs': /usr/bin/cmake /home/jagdeesh/tracker/src/px4_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/px4_msgs

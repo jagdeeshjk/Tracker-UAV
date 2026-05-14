@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c2cbc74894584975b2be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_rover_velocity_mode_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_rover_velocity_mode_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_rover_velocity_mode_cpp_uninstall-Release-3fc0f8d36201b2d7695d.json",
+					"name" : "example_rover_velocity_mode_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_velocity_mode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_velocity_mode-Release-d71914195e029637a5c7.json",
+					"name" : "rover_velocity_mode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2853af92f557d6690b53.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jagdeesh/tracker/build/example_rover_velocity_mode_cpp",
+		"source" : "/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

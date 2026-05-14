@@ -1,0 +1,21 @@
+{
+  "package_name": "ros_ign_interfaces",
+  "non_idl_tuples": [
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/Contact.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/Contacts.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/Entity.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/EntityFactory.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/GuiCamera.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/JointWrench.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/Light.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/StringVec.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/TrackVisual.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/VideoRecord.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/WorldControl.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:msg/WorldReset.msg",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:srv/ControlWorld.srv",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:srv/DeleteEntity.srv",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:srv/SetEntityPose.srv",
+    "/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces:srv/SpawnEntity.srv"
+  ]
+}

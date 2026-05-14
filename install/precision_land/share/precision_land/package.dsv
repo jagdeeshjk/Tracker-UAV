@@ -1,0 +1,8 @@
+source;share/precision_land/hook/cmake_prefix_path.ps1
+source;share/precision_land/hook/cmake_prefix_path.dsv
+source;share/precision_land/hook/cmake_prefix_path.sh
+source;share/precision_land/local_setup.bash
+source;share/precision_land/local_setup.dsv
+source;share/precision_land/local_setup.ps1
+source;share/precision_land/local_setup.sh
+source;share/precision_land/local_setup.zsh

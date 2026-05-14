@@ -1,0 +1,132 @@
+[0.015s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_bridge -- -j12 -l12
+[0.034s] gmake[1]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.081s] gmake[2]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.085s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.261s] Consolidate compiler generated dependencies of target ros_gz_bridge
+[0.263s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.359s] [ 42%] Built target ros_gz_bridge
+[0.362s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.380s] Consolidate compiler generated dependencies of target gtest
+[0.381s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.403s] [ 45%] Built target gtest
+[0.408s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.423s] Consolidate compiler generated dependencies of target bridge_types
+[0.425s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.440s] [ 47%] Built target bridge_types
+[0.444s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.477s] Consolidate compiler generated dependencies of target test_utils
+[0.477s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.502s] [ 50%] Built target test_utils
+[0.507s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.530s] Consolidate compiler generated dependencies of target static_bridge
+[0.531s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.553s] [ 52%] Built target static_bridge
+[0.558s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.680s] Consolidate compiler generated dependencies of target test_ros_subscriber
+[0.682s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.733s] [ 70%] Built target test_ros_subscriber
+[0.737s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.757s] Consolidate compiler generated dependencies of target test_ros_client
+[0.757s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.777s] [ 72%] Built target test_ros_client
+[0.781s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.802s] Consolidate compiler generated dependencies of target test_gz_server
+[0.803s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.826s] [ 74%] Built target test_gz_server
+[0.830s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.854s] Consolidate compiler generated dependencies of target test_gz_subscriber
+[0.856s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.879s] [ 78%] Built target test_gz_subscriber
+[0.883s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.908s] Consolidate compiler generated dependencies of target test_ros_publisher
+[0.910s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.936s] [ 81%] Built target test_ros_publisher
+[0.941s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.961s] Consolidate compiler generated dependencies of target test_gz_publisher
+[0.962s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[0.994s] [ 84%] Built target test_gz_publisher
+[0.998s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.021s] Consolidate compiler generated dependencies of target parameter_bridge
+[1.022s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.046s] [ 86%] Built target parameter_bridge
+[1.049s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.065s] Consolidate compiler generated dependencies of target gtest_main
+[1.066s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.083s] [ 89%] Built target gtest_main
+[1.108s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.129s] Consolidate compiler generated dependencies of target bridge_node
+[1.131s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.157s] [ 91%] Built target bridge_node
+[1.162s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.181s] Consolidate compiler generated dependencies of target ros_gz_bridge_bridge_config
+[1.184s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.200s] [ 93%] Built target ros_gz_bridge_bridge_config
+[1.205s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.234s] Consolidate compiler generated dependencies of target test_ros_gz_interfaces
+[1.236s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.272s] [ 96%] Built target test_ros_gz_interfaces
+[1.277s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.302s] Consolidate compiler generated dependencies of target test_rcl_interfaces
+[1.304s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.325s] [100%] Built target test_rcl_interfaces
+[1.325s] gmake[2]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.342s] gmake[1]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_bridge'
+[1.348s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_bridge -- -j12 -l12
+[1.352s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_bridge
+[1.369s] -- Install configuration: "Release"
+[1.369s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node
+[1.369s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/libros_gz_bridge.so
+[1.369s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge
+[1.369s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert_decl.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/ros_gz_bridge.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/actuator_msgs.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rosgraph_msgs.hpp
+[1.370s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/builtin_interfaces.hpp
+[1.371s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/std_msgs.hpp
+[1.371s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rcl_interfaces.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/sensor_msgs.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/tf2_msgs.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/nav_msgs.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/trajectory_msgs.hpp
+[1.372s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/vision_msgs.hpp
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/ros_gz_interfaces.hpp
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/bridge_config.hpp
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types
+[1.373s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher
+[1.374s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber
+[1.374s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher
+[1.374s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber
+[1.375s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server
+[1.375s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client
+[1.376s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.sh
+[1.376s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.dsv
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/ros_gz_bridge
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/ros_gz_bridge
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.sh
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.sh
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.dsv
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.bash
+[1.377s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.sh
+[1.378s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.zsh
+[1.378s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.dsv
+[1.378s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ament_index/resource_index/packages/ros_gz_bridge
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ament_index/resource_index/rclcpp_components/ros_gz_bridge
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport-release.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake
+[1.379s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig-version.cmake
+[1.380s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/package.xml
+[1.382s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_bridge

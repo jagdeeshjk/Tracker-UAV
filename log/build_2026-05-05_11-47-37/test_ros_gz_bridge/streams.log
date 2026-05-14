@@ -1,0 +1,23 @@
+[0.075s] Invoking command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/test_ros_gz_bridge -- -j12 -l12
+[0.360s] [ 33%] Built target gtest_main
+[0.370s] [ 66%] Built target gtest
+[0.514s] [100%] Built target test_ros_gz_bridge
+[0.613s] Invoked command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/test_ros_gz_bridge -- -j12 -l12
+[0.614s] Invoking command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/test_ros_gz_bridge
+[0.624s] -- Install configuration: "Release"
+[0.624s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/test_ros_gz_bridge
+[0.624s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/test_ros_gz_bridge
+[0.624s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.sh
+[0.627s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.dsv
+[0.627s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.sh
+[0.627s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.dsv
+[0.627s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.bash
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.sh
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.zsh
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.dsv
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.dsv
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/packages/test_ros_gz_bridge
+[0.628s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig.cmake
+[0.629s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig-version.cmake
+[0.629s] -- Up-to-date: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.xml
+[0.721s] Invoked command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/test_ros_gz_bridge

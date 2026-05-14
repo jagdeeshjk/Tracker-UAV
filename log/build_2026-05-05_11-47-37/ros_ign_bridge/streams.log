@@ -1,0 +1,25 @@
+[0.083s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_bridge -- -j12 -l12
+[0.246s] [ 50%] Built target parameter_bridge
+[0.251s] [100%] Built target static_bridge
+[0.292s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_bridge -- -j12 -l12
+[0.293s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_bridge
+[0.321s] -- Install configuration: "Release"
+[0.322s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/lib/ros_ign_bridge/parameter_bridge
+[0.322s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/lib/ros_ign_bridge/static_bridge
+[0.323s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ament_index/resource_index/package_run_dependencies/ros_ign_bridge
+[0.323s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ament_index/resource_index/parent_prefix_path/ros_ign_bridge
+[0.324s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/environment/ament_prefix_path.sh
+[0.324s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/environment/ament_prefix_path.dsv
+[0.325s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/environment/path.sh
+[0.325s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/environment/path.dsv
+[0.325s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/local_setup.bash
+[0.326s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/local_setup.sh
+[0.326s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/local_setup.zsh
+[0.327s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/local_setup.dsv
+[0.327s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/package.dsv
+[0.328s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ament_index/resource_index/packages/ros_ign_bridge
+[0.328s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.328s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/cmake/ros_ign_bridgeConfig.cmake
+[0.329s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/cmake/ros_ign_bridgeConfig-version.cmake
+[0.330s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_bridge/share/ros_ign_bridge/package.xml
+[0.339s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_bridge

@@ -1,0 +1,6 @@
+aruco_tracker:
+  ros__parameters:
+    aruco_id: 0          # marker ID to track; set to -1 to accept any marker
+    dictionary: 2        # cv::aruco::DICT_4X4_250
+    marker_size: 0.5     # physical side length of the printed marker (metres)
+    # image_topic and camera_info_topic are overridden in the launch file

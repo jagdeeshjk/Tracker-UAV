@@ -1,0 +1,60 @@
+[0.037s] Invoking command in '/home/jagdeesh/tracker/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagdeesh/tracker/build/cv_bridge -- -j12 -l12
+[0.196s] [ 11%] Built target gtest_main
+[0.208s] [ 22%] Built target gtest
+[0.221s] [ 22%] Built target ament_cmake_python_copy_cv_bridge
+[0.244s] [ 44%] Built target cv_bridge
+[0.403s] [ 83%] Built target cv_bridge-utest
+[0.434s] [100%] Built target cv_bridge_boost
+[1.025s] running egg_info
+[1.026s] writing cv_bridge.egg-info/PKG-INFO
+[1.027s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.027s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.036s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.036s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.103s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.131s] Invoked command in '/home/jagdeesh/tracker/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagdeesh/tracker/build/cv_bridge -- -j12 -l12
+[1.132s] Invoking command in '/home/jagdeesh/tracker/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagdeesh/tracker/build/cv_bridge
+[1.153s] -- Install configuration: "Release"
+[1.153s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[1.153s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[1.153s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info
+[1.153s] -- Installing: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/SOURCES.txt
+[1.154s] -- Installing: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/dependency_links.txt
+[1.154s] -- Installing: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/top_level.txt
+[1.155s] -- Installing: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/PKG-INFO
+[1.156s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge
+[1.156s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[1.156s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[1.337s] Listing '/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[1.337s] Listing '/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/lib/libcv_bridge.so
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[1.338s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[1.339s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[1.339s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/lib/libcv_bridge.so
+[1.339s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[1.339s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[1.339s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[1.340s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[1.340s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/path.sh
+[1.340s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[1.340s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/local_setup.bash
+[1.341s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/local_setup.sh
+[1.341s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[1.341s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[1.342s] -- Installing: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/package.dsv
+[1.342s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[1.342s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[1.343s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-release.cmake
+[1.343s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[1.343s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.343s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[1.343s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[1.344s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[1.344s] -- Up-to-date: /home/jagdeesh/tracker/install/cv_bridge/share/cv_bridge/package.xml
+[1.344s] Invoked command in '/home/jagdeesh/tracker/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagdeesh/tracker/build/cv_bridge

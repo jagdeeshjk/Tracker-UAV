@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b9fa0ab65582462aaeba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_mode_fw_attitude_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_fw_attitude::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_fw_attitude-Release-ded28c01a52ce4a1974e.json",
+					"name" : "example_mode_fw_attitude",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_fw_attitude_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_fw_attitude_cpp_uninstall-Release-9d600a58a8c3456c27f5.json",
+					"name" : "example_mode_fw_attitude_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-24a56c3f374ea1fc84d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jagdeesh/tracker/build/example_mode_fw_attitude_cpp",
+		"source" : "/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

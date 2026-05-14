@@ -1,0 +1,944 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--parallel-workers', '2', '--allow-overriding', 'cv_bridge', 'image_geometry', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['cv_bridge', 'image_geometry'], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7156f663ea70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7156f663e410>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7156f663e410>>, mixin_verb=('build',))
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.296s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jagdeesh/tracker'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/aruco_tracker) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'fixed_src/aruco_tracker' with type 'ros.ament_cmake' and name 'aruco_tracker'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(fixed_src/precision_land) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'fixed_src/precision_land' with type 'ros.ament_cmake' and name 'precision_land'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(services) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes' with type 'ros.ament_cmake' and name 'example_executor_with_multiple_modes_cpp'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude' with type 'ros.ament_cmake' and name 'example_mode_fw_attitude_cpp'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/goto' with type 'ros.ament_cmake' and name 'example_mode_goto_cpp'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/goto_global) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/goto_global' with type 'ros.ament_cmake' and name 'example_mode_goto_global_cpp'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/manual) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/manual' with type 'ros.ament_cmake' and name 'example_mode_manual_cpp'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mission) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/mission' with type 'ros.ament_cmake' and name 'example_mode_mission_cpp'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor' with type 'ros.ament_cmake' and name 'example_mode_with_executor_cpp'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity' with type 'ros.ament_cmake' and name 'example_rover_velocity_mode_cpp'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement' with type 'ros.ament_cmake' and name 'example_mode_rtl_replacement_cpp'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/modes/vtol) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/modes/vtol' with type 'ros.ament_cmake' and name 'example_mode_vtol_cpp'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation' with type 'ros.ament_cmake' and name 'example_global_navigation_cpp'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation' with type 'ros.ament_cmake' and name 'example_local_navigation_cpp'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/mission/examples) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/px4_ros2_cpp) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-ros2-interface-lib/px4_ros2_cpp' with type 'ros.ament_cmake' and name 'px4_ros2_cpp'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-ros2-interface-lib/scripts) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz' with type 'ros.ament_cmake' and name 'ros_gz'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_bridge) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_bridge' with type 'ros.ament_cmake' and name 'ros_gz_bridge'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_image) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_image' with type 'ros.ament_cmake' and name 'ros_gz_image'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_interfaces) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_interfaces' with type 'ros.ament_cmake' and name 'ros_gz_interfaces'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_point_cloud) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_sim' with type 'ros.ament_cmake' and name 'ros_gz_sim'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_gz_sim_demos) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_gz_sim_demos' with type 'ros.ament_cmake' and name 'ros_gz_sim_demos'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign' with type 'ros.ament_cmake' and name 'ros_ign'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_bridge) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign_bridge' with type 'ros.ament_cmake' and name 'ros_ign_bridge'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign_gazebo' with type 'ros.ament_cmake' and name 'ros_ign_gazebo'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_gazebo_demos) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign_gazebo_demos' with type 'ros.ament_cmake' and name 'ros_ign_gazebo_demos'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_image) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign_image' with type 'ros.ament_cmake' and name 'ros_ign_image'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/ros_ign_interfaces) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/ros_ign_interfaces' with type 'ros.ament_cmake' and name 'ros_ign_interfaces'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/test_ros_gz_bridge) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz/test_ros_gz_bridge' with type 'ros.ament_cmake' and name 'test_ros_gz_bridge'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz/tools) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/cv_bridge', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/image_geometry', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/px4_msgs', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz_interfaces', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz_sim', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz_sim', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/aruco_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/aruco_tracker', 'merge_install': False, 'path': '/home/jagdeesh/tracker/fixed_src/aruco_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/opencv_tests', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/vision_opencv/opencv_tests', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'px4_ros2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/px4_ros2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/px4_ros2_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/px4_ros2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz_bridge', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign_gazebo', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign_interfaces', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/vision_opencv', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'example_executor_with_multiple_modes_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'example_executor_with_multiple_modes_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_executor_with_multiple_modes_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_executor_with_multiple_modes_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_global_navigation_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'example_global_navigation_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_global_navigation_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_global_navigation_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_local_navigation_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'example_local_navigation_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_local_navigation_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_local_navigation_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/navigation/local_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'example_mode_fw_attitude_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_fw_attitude_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_fw_attitude_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_fw_attitude_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/fw_attitude', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_goto_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_goto_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_goto_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/goto', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_goto_global_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_goto_global_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_goto_global_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_goto_global_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/goto_global', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_manual_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_manual_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_manual_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_manual_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/manual', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_mission_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_mission_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_mission_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_mission_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/mission', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_rtl_replacement_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_rtl_replacement_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_rtl_replacement_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_rtl_replacement_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_vtol_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_vtol_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_vtol_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_vtol_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/vtol', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_mode_with_executor_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'example_mode_with_executor_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_mode_with_executor_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_mode_with_executor_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'example_rover_velocity_mode_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'example_rover_velocity_mode_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/example_rover_velocity_mode_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/example_rover_velocity_mode_cpp', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/px4-ros2-interface-lib/examples/cpp/modes/rover_velocity', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'precision_land' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'precision_land' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/precision_land', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/precision_land', 'merge_install': False, 'path': '/home/jagdeesh/tracker/fixed_src/precision_land', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz_image', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz_image', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign_bridge', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'test_ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/test_ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/test_ros_gz_bridge', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/test_ros_gz_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz_sim_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz_sim_demos', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz_sim_demos', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign_image', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign_image', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_gz', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_gz', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_gazebo_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign_gazebo_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign_gazebo_demos', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign_gazebo_demos', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagdeesh/tracker/build/ros_ign', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagdeesh/tracker/install/ros_ign', 'merge_install': False, 'path': '/home/jagdeesh/tracker/src/ros_gz/ros_ign', 'symlink_install': False, 'test_result_base': None}
+[0.412s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jagdeesh/tracker/src/px4_msgs' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jagdeesh/tracker/src/px4_msgs'
+[0.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces' with build type 'ament_cmake'
+[0.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagdeesh/tracker/build/px4_msgs': /usr/bin/cmake /home/jagdeesh/tracker/src/px4_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/px4_msgs
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagdeesh/tracker/build/ros_gz_interfaces': /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_interfaces
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagdeesh/tracker/build/ros_gz_interfaces' returned '1': /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_interfaces
+[0.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces' for CMake module files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces' for CMake config files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces/lib/python3.10/site-packages'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/jagdeesh/tracker/install/ros_gz_interfaces/bin'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagdeesh/tracker/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagdeesh/tracker/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagdeesh/tracker/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagdeesh/tracker/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagdeesh/tracker/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagdeesh/tracker/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[0.811s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.811s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.811s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.811s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.817s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.831s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagdeesh/tracker/install/local_setup.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jagdeesh/tracker/install/_local_setup_util_ps1.py'
+[0.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagdeesh/tracker/install/setup.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagdeesh/tracker/install/local_setup.sh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jagdeesh/tracker/install/_local_setup_util_sh.py'
+[0.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagdeesh/tracker/install/setup.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagdeesh/tracker/install/local_setup.bash'
+[0.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagdeesh/tracker/install/setup.bash'
+[0.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagdeesh/tracker/install/local_setup.zsh'
+[0.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagdeesh/tracker/install/setup.zsh'

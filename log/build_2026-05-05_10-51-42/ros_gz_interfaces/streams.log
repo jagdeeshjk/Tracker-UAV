@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_interfaces': /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_interfaces
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.357s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.357s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.357s]   has asked CMake to find a package configuration file provided by
+[0.357s]   "ament_cmake", but CMake did not find one.
+[0.357s] 
+[0.357s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.357s]   any of the following names:
+[0.357s] 
+[0.357s]     ament_cmakeConfig.cmake
+[0.357s]     ament_cmake-config.cmake
+[0.357s] 
+[0.357s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.357s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.358s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.358s]   has been installed.
+[0.358s] 
+[0.358s] [0m
+[0.358s] -- Configuring incomplete, errors occurred!
+[0.358s] See also "/home/jagdeesh/tracker/build/ros_gz_interfaces/CMakeFiles/CMakeOutput.log".
+[0.359s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_interfaces' returned '1': /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_interfaces

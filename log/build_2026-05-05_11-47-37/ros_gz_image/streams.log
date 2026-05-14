@@ -1,0 +1,22 @@
+[0.067s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_image': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_image -- -j12 -l12
+[0.361s] [100%] Built target image_bridge
+[0.417s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_image -- -j12 -l12
+[0.424s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_image': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_image
+[0.500s] -- Install configuration: "Release"
+[0.509s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/lib/ros_gz_image/image_bridge
+[0.509s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/package_run_dependencies/ros_gz_image
+[0.509s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/parent_prefix_path/ros_gz_image
+[0.509s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.sh
+[0.509s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/ament_prefix_path.dsv
+[0.510s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/path.sh
+[0.510s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/environment/path.dsv
+[0.510s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.bash
+[0.510s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.sh
+[0.521s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.zsh
+[0.521s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/local_setup.dsv
+[0.521s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/package.dsv
+[0.521s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ament_index/resource_index/packages/ros_gz_image
+[0.521s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig.cmake
+[0.522s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/cmake/ros_gz_imageConfig-version.cmake
+[0.522s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_gz_image/share/ros_gz_image/package.xml
+[0.563s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_image' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_image

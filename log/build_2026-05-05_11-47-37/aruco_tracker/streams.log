@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/jagdeesh/tracker/build/aruco_tracker': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_msgs/lib:/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/aruco_tracker -- -j12 -l12
+[0.131s] [100%] Built target aruco_tracker
+[0.152s] Invoked command in '/home/jagdeesh/tracker/build/aruco_tracker' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_msgs/lib:/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/aruco_tracker -- -j12 -l12
+[0.156s] Invoking command in '/home/jagdeesh/tracker/build/aruco_tracker': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_msgs/lib:/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/aruco_tracker
+[0.170s] -- Install configuration: "Release"
+[0.170s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/lib/aruco_tracker/aruco_tracker
+[0.170s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker//cfg
+[0.170s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker//cfg/params.yaml
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/ament_index/resource_index/package_run_dependencies/aruco_tracker
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/ament_index/resource_index/parent_prefix_path/aruco_tracker
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/environment/ament_prefix_path.sh
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/environment/ament_prefix_path.dsv
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/environment/path.sh
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/environment/path.dsv
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/local_setup.bash
+[0.171s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/local_setup.sh
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/local_setup.zsh
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/local_setup.dsv
+[0.172s] -- Installing: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/package.dsv
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/ament_index/resource_index/packages/aruco_tracker
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/cmake/aruco_trackerConfig.cmake
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/cmake/aruco_trackerConfig-version.cmake
+[0.172s] -- Up-to-date: /home/jagdeesh/tracker/install/aruco_tracker/share/aruco_tracker/package.xml
+[0.176s] Invoked command in '/home/jagdeesh/tracker/build/aruco_tracker' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/px4_msgs:/home/jagdeesh/tracker/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/px4_msgs/lib:/home/jagdeesh/tracker/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/px4_msgs/local/lib/python3.10/dist-packages:/home/jagdeesh/tracker/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/aruco_tracker

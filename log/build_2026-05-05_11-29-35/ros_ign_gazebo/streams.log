@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_gazebo -- -j12 -l12
+[0.028s] gmake[1]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.038s] gmake[2]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.039s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.043s] Consolidate compiler generated dependencies of target create
+[0.044s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.051s] [100%] Built target create
+[0.052s] gmake[2]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.055s] gmake[1]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_gazebo'
+[0.058s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_gazebo -- -j12 -l12
+[0.060s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_gazebo
+[0.077s] -- Install configuration: "Release"
+[0.077s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/launch/ign_gazebo.launch.py
+[0.077s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/lib/ros_ign_gazebo/create
+[0.077s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_ign_gazebo
+[0.078s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_ign_gazebo
+[0.078s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.dsv
+[0.078s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.sh
+[0.080s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.dsv
+[0.080s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.bash
+[0.080s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.sh
+[0.080s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.zsh
+[0.080s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.dsv
+[0.081s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv
+[0.081s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ament_index/resource_index/packages/ros_ign_gazebo
+[0.081s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.081s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig.cmake
+[0.081s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig-version.cmake
+[0.081s] -- Up-to-date: /home/jagdeesh/tracker/install/ros_ign_gazebo/share/ros_ign_gazebo/package.xml
+[0.085s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_gazebo

@@ -1,0 +1,54 @@
+precision_land:
+  ros__parameters:
+    # ── Descent ───────────────────────────────────────────────────────────────
+    descent_vel: 0.6              # full descent rate in Descend state (m/s)
+
+    # ── XY velocity controller ────────────────────────────────────────────────
+    vel_p_gain: 1.8
+    vel_i_gain: 0.0               # keep 0 for moving targets (windup fights FF)
+    max_velocity: 3.0
+
+    # ── Tracking / prediction ─────────────────────────────────────────────────
+    feedforward_gain: 0.95        # near-unity to match rover speed
+    max_ugv_speed: 2.0
+    camera_latency: 0.15          # camera pipeline delay (s)
+
+    # ── State transitions ─────────────────────────────────────────────────────
+    target_timeout: 5.0
+    delta_position: 0.2           # world-frame position convergence (m)
+    delta_velocity: 0.2           # velocity-match threshold (m/s)
+    approach_lateral_threshold: 0.5  # kept for isOverTarget() fallback
+
+    # ── NEW: Align state ──────────────────────────────────────────────────────
+    # align_image_threshold: normalised offset from image centre [0, 1].
+    #   0.12 → tag must be within 12% of the half-width/height of the frame.
+    #   Decrease for tighter "directly above" lock; increase for faster transit.
+    align_image_threshold: 0.12
+
+    # align_ok_frames: consecutive control ticks both centering AND velocity
+    #   must be satisfied before declaring aligned.  At 50 Hz → 5 frames = 100ms.
+    align_ok_frames: 5
+
+    # align_timeout_s: if alignment cannot be achieved in this many seconds,
+    #   the drone proceeds to Descend anyway (handles fast / erratic rovers).
+    align_timeout_s: 8.0
+
+    # ── Altitude-based landing fallback ───────────────────────────────────────
+    land_alt_threshold: 0.35      # metres AGL (ArUco raw_range_z median)
+    land_timeout_s: 1.5
+
+    # ── GPS → Vision handoff ──────────────────────────────────────────────────
+    gps_cutoff_alt: 5.0           # below this AGL: GPS EKF updates suppressed
+
+    # ── Search: 2-phase GPS approach ──────────────────────────────────────────
+    gps_approach_alt: 5.0
+    gps_approach_radius: 2.5
+    scan_descent_vel: 0.2
+    gps_scan_timeout: 20.0
+    scan_min_alt: 0.5
+
+    # ── Kalman Filter noise ────────────────────────────────────────────────────
+    kf_q_pos: 0.05
+    kf_q_vel: 1.0
+    kf_r_gps: 0.25
+    kf_r_aruco: 0.5

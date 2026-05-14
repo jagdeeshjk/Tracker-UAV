@@ -1,0 +1,22 @@
+{
+  "settings": {
+    // ── clangd: use compile_commands.json from colcon build ────────────────
+    "clangd.arguments": [
+      "--compile-commands-dir=${workspaceFolder}",
+      "--background-index",
+      "--clang-tidy",
+      "--header-insertion=never",
+      "--completion-style=detailed",
+      "--log=error"
+    ],
+    // Disable the default C++ IntelliSense engine so clangd is the only LSP
+    "C_Cpp.intelliSenseEngine": "disabled",
+    // ── File associations ─────────────────────────────────────────────────
+    "files.associations": {
+      "*.hpp": "cpp",
+      "*.cpp": "cpp"
+    },
+    // ── Editor ───────────────────────────────────────────────────────────
+    "editor.formatOnSave": false
+  }
+}

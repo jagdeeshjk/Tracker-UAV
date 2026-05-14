@@ -1,0 +1,101 @@
+[0.012s] Invoking command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/test_ros_gz_bridge -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/test_ros_gz_bridge
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.356s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.531s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.619s] -- Found ros_gz_bridge: 0.244.20 (/home/jagdeesh/tracker/install/ros_gz_bridge/share/ros_gz_bridge/cmake)
+[0.663s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.667s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.675s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.740s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.742s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.834s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.866s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.924s] -- Looking for pthread.h
+[1.003s] -- Looking for pthread.h - found
+[1.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.083s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.084s] -- Found Threads: TRUE  
+[1.191s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.277s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.594s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.681s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.704s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.711s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.711s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.711s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.711s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.742s] -- Found PythonExtra: .so  
+[1.781s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.794s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.794s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.795s] -- Configured cppcheck include dirs: 
+[1.796s] -- Configured cppcheck exclude dirs and/or files: 
+[1.797s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.797s] -- Configured cpplint exclude dirs and/or files: 
+[1.797s] -- Added test 'lint_cmake' to check CMake code style
+[1.798s] -- Added test 'uncrustify' to check C / C++ code style
+[1.799s] -- Configured uncrustify additional arguments: 
+[1.799s] -- Added test 'xmllint' to check XML markup files
+[1.803s] -- Configuring done
+[1.829s] -- Generating done
+[1.838s] -- Build files have been written to: /home/jagdeesh/tracker/build/test_ros_gz_bridge
+[1.853s] Invoked command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/test_ros_gz_bridge -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/test_ros_gz_bridge
+[1.855s] Invoking command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/test_ros_gz_bridge -- -j12 -l12
+[1.866s] gmake[1]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[1.890s] gmake[2]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[1.891s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[1.901s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[1.903s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[1.912s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.780s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.835s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[2.843s] [ 33%] Built target gtest_main
+[2.845s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[2.855s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[2.856s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[2.864s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.563s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.624s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[10.632s] [ 66%] Built target gtest
+[10.635s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[10.644s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[10.646s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[10.654s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ros_gz_bridge.dir/src/test_ros_gz_bridge.cpp.o[0m
+[18.309s] [100%] [32m[1mLinking CXX executable test_ros_gz_bridge[0m
+[19.296s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[19.306s] [100%] Built target test_ros_gz_bridge
+[19.307s] gmake[2]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[19.316s] gmake[1]: Leaving directory '/home/jagdeesh/tracker/build/test_ros_gz_bridge'
+[19.319s] Invoked command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/test_ros_gz_bridge -- -j12 -l12
+[19.321s] Invoking command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/test_ros_gz_bridge
+[19.331s] -- Install configuration: "Release"
+[19.331s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/test_ros_gz_bridge
+[19.331s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/test_ros_gz_bridge
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.sh
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.dsv
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.sh
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.dsv
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.bash
+[19.332s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.sh
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.zsh
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.dsv
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.dsv
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/ament_index/resource_index/packages/test_ros_gz_bridge
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig.cmake
+[19.333s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig-version.cmake
+[19.334s] -- Installing: /home/jagdeesh/tracker/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.xml
+[19.337s] Invoked command in '/home/jagdeesh/tracker/build/test_ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/test_ros_gz_bridge

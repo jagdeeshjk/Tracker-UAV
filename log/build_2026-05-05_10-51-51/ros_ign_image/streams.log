@@ -1,0 +1,58 @@
+[0.073s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_image': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_ign_image -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_ign_image
+[0.381s] -- The C compiler identification is GNU 11.4.0
+[0.673s] -- The CXX compiler identification is GNU 11.4.0
+[0.696s] -- Detecting C compiler ABI info
+[0.917s] -- Detecting C compiler ABI info - done
+[0.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.955s] -- Detecting C compile features
+[0.956s] -- Detecting C compile features - done
+[0.976s] -- Detecting CXX compiler ABI info
+[1.243s] -- Detecting CXX compiler ABI info - done
+[1.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.281s] -- Detecting CXX compile features
+[1.284s] -- Detecting CXX compile features - done
+[1.295s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.792s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.115s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[2.444s] -- Configuring done
+[2.468s] -- Generating done
+[2.481s] -- Build files have been written to: /home/jagdeesh/tracker/build/ros_ign_image
+[2.519s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_image' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_ign_image -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_ign_image
+[2.520s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_image': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_image -- -j12 -l12
+[2.581s] gmake[1]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[2.651s] gmake[2]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[2.654s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[2.682s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[2.687s] gmake[3]: Entering directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[2.733s] [ 50%] [32mBuilding CXX object CMakeFiles/image_bridge.dir/src/image_bridge_shim.cpp.o[0m
+[3.440s] /home/jagdeesh/tracker/src/ros_gz/ros_ign_image/src/image_bridge_shim.cpp: In function ‘int main(int, char**)’:
+[3.440s] /home/jagdeesh/tracker/src/ros_gz/ros_ign_image/src/image_bridge_shim.cpp:40:9: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+[3.441s]    40 |   system(cli_call.str().c_str());
+[3.441s]       |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+[3.651s] [100%] [32m[1mLinking CXX executable image_bridge[0m
+[3.948s] gmake[3]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[3.985s] [100%] Built target image_bridge
+[3.992s] gmake[2]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[4.042s] gmake[1]: Leaving directory '/home/jagdeesh/tracker/build/ros_ign_image'
+[4.043s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_image' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_ign_image -- -j12 -l12
+[4.044s] Invoking command in '/home/jagdeesh/tracker/build/ros_ign_image': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_image
+[4.084s] -- Install configuration: "Release"
+[4.084s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/lib/ros_ign_image/image_bridge
+[4.085s] -- Set runtime path of "/home/jagdeesh/tracker/install/ros_ign_image/lib/ros_ign_image/image_bridge" to ""
+[4.085s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/package_run_dependencies/ros_ign_image
+[4.092s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/parent_prefix_path/ros_ign_image
+[4.092s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.sh
+[4.094s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.dsv
+[4.095s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/path.sh
+[4.095s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/environment/path.dsv
+[4.098s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.bash
+[4.098s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.sh
+[4.098s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.zsh
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/local_setup.dsv
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/package.dsv
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ament_index/resource_index/packages/ros_ign_image
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig.cmake
+[4.101s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig-version.cmake
+[4.102s] -- Installing: /home/jagdeesh/tracker/install/ros_ign_image/share/ros_ign_image/package.xml
+[4.115s] Invoked command in '/home/jagdeesh/tracker/build/ros_ign_image' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_ign_image

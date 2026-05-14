@@ -1,0 +1,89 @@
+[0.014s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_sim_demos -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_sim_demos
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.677s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.777s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.783s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.784s] -- Added test 'lint_cmake' to check CMake code style
+[0.785s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.788s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done
+[0.793s] -- Generating done
+[0.795s] -- Build files have been written to: /home/jagdeesh/tracker/build/ros_gz_sim_demos
+[0.800s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jagdeesh/tracker/src/ros_gz/ros_gz_sim_demos -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jagdeesh/tracker/install/ros_gz_sim_demos
+[0.801s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_sim_demos -- -j12 -l12
+[0.813s] gmake[1]: Entering directory '/home/jagdeesh/tracker/build/ros_gz_sim_demos'
+[0.846s] gmake[1]: Leaving directory '/home/jagdeesh/tracker/build/ros_gz_sim_demos'
+[0.848s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jagdeesh/tracker/build/ros_gz_sim_demos -- -j12 -l12
+[0.850s] Invoking command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_sim_demos
+[0.859s] -- Install configuration: "Release"
+[0.859s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch
+[0.859s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/triggered_camera.launch.py
+[0.859s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/joint_states.launch.py
+[0.859s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/air_pressure.launch.py
+[0.859s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/navsat_gpsfix.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/gpu_lidar_bridge.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/rgbd_camera.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/magnetometer.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/diff_drive.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/rgbd_camera_bridge.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/imu.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/camera.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/gpu_lidar.launch.py
+[0.860s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/depth_camera.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/sdf_parser.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/image_bridge.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/navsat.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/robot_description_publisher.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/tf_bridge.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/launch/battery.launch.py
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz
+[0.861s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/diff_drive.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/gpu_lidar_bridge.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/imu.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/depth_camera.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/rgbd_camera_bridge.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/tf_bridge.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/joint_states.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/robot_description_publisher.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/gpu_lidar.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/vehicle.rviz
+[0.862s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/camera.rviz
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/rviz/rgbd_camera.rviz
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/double_pendulum_model.sdf
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/vehicle
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/vehicle/model.config
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/vehicle/model.sdf
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/models/rrbot.xacro
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/worlds
+[0.863s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/worlds/vehicle.sdf
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ros_gz_sim_demos.dsv
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim_demos
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim_demos
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ament_prefix_path.sh
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/ament_prefix_path.dsv
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/path.sh
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/environment/path.dsv
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.bash
+[0.864s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.sh
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.zsh
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/local_setup.dsv
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.dsv
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ament_index/resource_index/packages/ros_gz_sim_demos
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/cmake/ros_gz_sim_demosConfig.cmake
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/cmake/ros_gz_sim_demosConfig-version.cmake
+[0.865s] -- Installing: /home/jagdeesh/tracker/install/ros_gz_sim_demos/share/ros_gz_sim_demos/package.xml
+[0.867s] Invoked command in '/home/jagdeesh/tracker/build/ros_gz_sim_demos' returned '0': AMENT_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jagdeesh/tracker/install/ros_gz_image:/home/jagdeesh/tracker/install/ros_gz_bridge:/home/jagdeesh/tracker/install/ros_gz_sim:/home/jagdeesh/tracker/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jagdeesh/tracker/install/ros_gz_bridge/lib:/home/jagdeesh/tracker/install/ros_gz_sim/lib:/home/jagdeesh/tracker/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jagdeesh/tracker/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jagdeesh/tracker/build/ros_gz_sim_demos
